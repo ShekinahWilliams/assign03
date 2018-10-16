@@ -3,7 +3,7 @@
 <body>
 <?php
 $description = array("Name", "Age", "Height", "Weight","Position");
-echo $description;
+echo .$description;
 ?>
 </body>
 </html>
