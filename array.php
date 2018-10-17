@@ -2,8 +2,18 @@
 <html>
 <body>
 <?php
-$description = array ("Name", "Age", "Height", "Weight","Position");
-echo $description;
+$titles[0] = "Name";
+$titles[1] = "Age";
+$titles[2] = "Height";
+$titles[3] = "Weight";
+$titles[4] = "Position";
+echo $titles[0], $titles[1],$titles[2],$titles[3],$titles[4];
+$infos[0]= "Jeff";
+$infos[1]= "22";
+$infos[2]= "6'5";
+$infos[3]= "220lbs";
+$infos[4]= "Linebacker";
+echo $infos[0], $infos[1],$infos[2],$infos[3],$infos[4];
 
 $persons = array
 (array("Name" => "Jeff","Age" => "22", "Height" => "6'5","Weight" => "220lbs", "Position" => "Linebacker"),
